@@ -43,6 +43,14 @@
     font-weight: 400;
     font-size: 65px;
     }
+    // <uniquifier>: Use a unique and descriptive class name
+
+.teko-<uniquifier> {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
     .corpo_textos{
     display: flex;
     flex-direction: column;
