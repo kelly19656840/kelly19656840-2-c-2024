@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
     }
+    body{
+    
+        .teko-<uniquifier> {
+          font-family: "Teko", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+        }    
+    }
     .cabecalho{
     background-color: #2D9596; /* serve para cor do fundo */
     color: white;
@@ -43,13 +52,7 @@
     font-weight: 400;
     font-size: 65px;
     }
-    // <uniquifier>: Use a unique and descriptive class name
-
-.teko-<uniquifier> {
-  font-family: "Teko", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    
 }
     .corpo_textos{
     display: flex;
